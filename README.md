@@ -32,7 +32,7 @@ The dataset contains eight attributes (or features, denoted by X1...X8) and two 
 
 There are two notebooks in this repository and their structures are similar, except for Sections #4 and 5.
 
-Notebook 1
+<ins>Notebook 1</ins>
 
 1. Prepare Problem
 
@@ -71,7 +71,7 @@ b) Save the model for later use
 6. Conclusions
 
 
-Notebook 2
+<ins>Notebook 2</ins>
 
 4. Bayesian optimization
 
@@ -90,5 +90,6 @@ b) Save the model for later use
 
 -------------------------------------------------------------------------------------------------------------------------------------
 Reference
+
 [1]	Tsanas, A. and Xifara, A. 2012. Accurate quantitative estimation of energy performance of residential buildings using statistical machine learning tools. Energy and Buildings 49: 560–567. https://doi.org/10.1016/j.enbuild.2012.03.003 
 
