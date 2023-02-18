@@ -6,7 +6,7 @@ This optimization process can be done using simulation tools that are capable of
 
 In this project, machine learning models were trained on the available dataset of design parameters and corresponding energy consumption. Once the models were trained, they can be used as the surrogate models in the Bayesian optimization process. The optimization algorithm will update the models and use them to predict the energy consumption and for different sets of design parameters, and select the next set of parameters to evaluate based on the estimated performance of the models. 
 
-![ML workflow](https://user-images.githubusercontent.com/86640902/219902366-a74a4cf1-5ba6-46a1-a105-6e108f2046ed.jpg)
+![ML workflow](https://user-images.githubusercontent.com/86640902/219902456-03b24342-09f1-432d-98d0-35dd1227ced1.jpg)
 
 Note that I used the approach of total energy consumption which is the sum of the heating and cooling loads over a given period, such as a day, a week, or a year. This approach can help identify opportunities to reduce energy consumption through measures such as improved insulation, efficient lighting, or the use of renewable energy sources for the whole facility.
 
