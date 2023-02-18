@@ -34,7 +34,7 @@ The dataset contains eight attributes (or features, denoted by X1...X8) and two 
 
 There are two notebooks in this repository and their structures are similar, except for Sections #4 and 5.
 
-<ins>Notebook 1</ins>
+**<ins>Notebook 1</ins>**
 
 1. Prepare Problem
 
@@ -73,7 +73,7 @@ b) Save the model for later use
 6. Conclusions
 
 
-<ins>Notebook 2</ins>
+**<ins>Notebook 2</ins>**
 
 4. Bayesian optimization
 
