@@ -14,7 +14,7 @@ The dataset was created by Angeliki Xifara and was processed by Athanasios Tsana
 
 https://archive.ics.uci.edu/ml/datasets/energy+efficiency
 
-The dataset contains eight attributes (or features, denoted by X1...X8) and two responses (or outcomes, denoted by y1 and y2). Below are a number of assumption that were employed in the simulation to generate the dataset. 
+The dataset contains eight attributes (or features, denoted by X1...X8) and two responses (or outcomes, denoted by y1 and y2). Below are underlying assumptions used in the simulations to generate the dataset. 
 
 -	12 building forms were generated using Ecotect
 -	All the buildings have the same volume of 771.75 m3
