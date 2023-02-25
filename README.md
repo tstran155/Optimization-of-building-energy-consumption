@@ -58,7 +58,7 @@ c) Data transforms (Notebook 1) or Feature engineering (Sobol sensitivity analys
 
 4. Evaluate Algorithms
 
-a) Spot check algorithms 
+a) Spot check algorithms (cross-validation technique)
    
    - Notebook 1: machine learning (Linear Regression, Random Forest, and XGBoost) and neural network (Keras Sequential) models
 
