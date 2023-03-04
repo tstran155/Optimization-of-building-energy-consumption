@@ -79,15 +79,12 @@ b) Save the model for later use
 
 a)	Load the surrogate model created in Notebook 1
 
-b)	Define objective and acquisition functions
+b)	Define objective, acquisition, and optimization functions
 
 c)	Optimization process
 
-5. Finalize Model
+5. Conclusions
 
-a) Hyperparameter tuning
-
-b) Save the model for later use
 
 
 -------------------------------------------------------------------------------------------------------------------------------------
