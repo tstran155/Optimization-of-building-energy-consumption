@@ -32,7 +32,7 @@ The dataset contains eight attributes (or features, denoted by X1...X8) and two 
 (4) south: 55% on the south side and 15% on each of the other sides, 
 (5) west: 55% on the west side and 15% on each of the other sides,
 
-There are two notebooks in this repository and their structures are similar, except for Sections #4 and 5.
+There are three (03) notebooks in this repository and their structures are similar, except for Sections #4 and 5.
 
 **<ins>Notebook 1</ins>**
 
@@ -85,7 +85,17 @@ c)	Optimization process
 
 5. Conclusions
 
+**<ins>Notebook 3</ins>**
 
+4. Optimization process using Pyomo
+
+a) Create model and define constraints
+
+b) Define objective function
+
+c) Optimization process using IPOPT solver
+
+5. Conclusions
 
 -------------------------------------------------------------------------------------------------------------------------------------
 Reference
