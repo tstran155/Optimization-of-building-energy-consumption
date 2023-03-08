@@ -91,7 +91,7 @@ a) Create model and define constraints
 
 b) Define objective function
 
-c) Optimization process using IPOPT solver
+c) Optimization process using IPOPT and Gurobi solvers
 
 5. Conclusions
 
