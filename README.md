@@ -73,7 +73,7 @@ b) Save the model for later use
 
 **<ins>Notebook 2</ins>**
 
-4. Bayesian optimization
+4. Optimization process using Bayesian framework
 
 a)	Load the surrogate model created in Notebook 1
 
