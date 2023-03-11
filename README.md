@@ -1,6 +1,6 @@
 # Optimization of building design parameters to minimize energy consumption
 
-Building energy consumption has steadily increased over the past decades worldwide, and heating, ventilation and air conditioning (HVAC) account for most of the energy use in the buildings. By optimizing the design parameters with the aim of minimizing the heating and cooling loads, it is possible to minimize the total energy consumption of a building and to reduce its carbon footprint. 
+Building energy consumption has steadily increased over the past decades worldwide, and heating, ventilation and air conditioning (HVAC) account for most of the energy use in the buildings. By optimizing the design parameters with the aim of minimizing the heating and cooling loads, it is possible to minimize the total energy consumption of a building. 
 
 This optimization process can be done using simulation tools that are capable of predicting the heating and cooling loads based on a set of design parameters, as well as using optimization algorithms that can search for the optimal set of parameters that minimize the heating and cooling loads. However, it is time-consuming and computational expensive to run batch simulations for the said purposes.
 
@@ -30,7 +30,15 @@ The dataset contains eight attributes (or features, denoted by X1...X8) and two 
 (4) south: 55% on the south side and 15% on each of the other sides, 
 (5) west: 55% on the west side and 15% on each of the other sides,
 
-There are three (03) notebooks in this repository and their structures are similar, except for Sections #4 and 5.
+Deterministic optimization and probabilistic optimization are two different approaches to solving optimization problems in the search space. There are some hybrid approaches that combine deterministic and probabilistic elements such as Genetic algorithms with local search. I will examine all optimization approaches on the building energy optimization dataset in this repository. There are four (04) notebooks in this repository and their structures are similar, except for Sections #4 and 5.
+
+- Notebook 1: Regresss the input data to build a surrogate model
+
+- Notebook 2: Optimization using a probabilistic method (Bayesian framework)
+
+- Notebook 3: Optimization using a deterministic method (Pyomo with Ipopt and Gurobi solvers)
+
+- Notebook 4: Optimization using a hybrid approach (Genetic algorithm with local search using a stochastic algorithm)
 
 **<ins>Notebook 1</ins>**
 
@@ -92,6 +100,20 @@ a) Create model and define constraints
 b) Define objective function
 
 c) Optimization process using IPOPT and Gurobi solvers
+
+5. Conclusions
+
+**<ins>Notebook 4</ins>**
+
+4. Optimization process using GA with local search
+
+a) Define the objective function using pretrained surrogate model
+
+b) Define the search space and the genetic algorithm parameters
+
+c) Define the local search operator using a stochastic algorithm
+
+d) Optimization using GA with local search 
 
 5. Conclusions
 
