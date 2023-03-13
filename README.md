@@ -6,7 +6,7 @@ This optimization process can be done using simulation tools that are capable of
 
 In this project, machine learning models were trained on the available dataset of design parameters and corresponding energy consumption. Once the models were trained, they can be used as the surrogate models in the optimization process. The optimization algorithm will update the models and use them to predict the energy consumption and for different sets of design parameters, and select the next set of parameters to evaluate based on the estimated performance of the models. 
 
-Note that I used the approach of total energy consumption which is the sum of the heating and cooling loads over a given period, such as a day, a week, or a year. This approach can help identify opportunities to reduce energy consumption through measures such as improved insulation, efficient lighting, or the use of renewable energy sources for the whole facility.
+It is worth noting that I employed two different approaches to evaluate energy consumption: separate energy consumption calculations for heating and cooling systems, and the total energy consumption which sums up the heating and cooling loads over a given period, such as a day, a week, or a year. The latter approach provides a comprehensive view of energy use and can identify opportunities for reducing consumption, such as through measures such as improved insulation, efficient lighting, or the use of renewable energy sources for the entire facility.
 
 The dataset was created by Angeliki Xifara and was processed by Athanasios Tsanas (Oxford Centre for Industrial and Applied Mathematics, University of Oxford, UK) [1]. Please access the UCI Machine Learning Repository to download the dataset.
 
@@ -32,7 +32,7 @@ The dataset contains eight attributes (or features, denoted by X1...X8) and two 
 
 Deterministic optimization and probabilistic optimization are two different approaches to solving optimization problems in the search space. There are some hybrid approaches that combine deterministic and probabilistic elements such as Genetic algorithms with local search. I will examine all optimization approaches on the building energy optimization dataset in this repository. There are four (04) notebooks in this repository and their structures are similar, except for Sections #4 and 5.
 
-- Notebook 1: Regresss the input data to build a surrogate model
+- Notebook 1 & 1B: Univariate (total energy consumption) and multivariate (heating and cooling loads) regresssion of the input data to build a surrogate model
 
 - Notebook 2: Optimization using a probabilistic method (Bayesian framework)
 
