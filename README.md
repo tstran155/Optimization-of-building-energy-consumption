@@ -32,15 +32,15 @@ The dataset contains eight attributes (or features, denoted by X1...X8) and two 
 
 Deterministic optimization and probabilistic optimization are two different approaches to solving optimization problems in the search space. There are some hybrid approaches that combine deterministic and probabilistic elements such as Genetic algorithms with local search. I will examine all optimization approaches on the building energy optimization dataset in this repository. There are six (06) notebooks in this repository and their structures are similar, except for Sections #4 and 5.
 
-- Notebook 1 & 1B: Univariate (total energy consumption) and multivariate (heating and cooling loads) regresssion of the input data to build a surrogate model
+- Notebook 1 & 1B: Univariate (total energy consumption) and multivariate (heating and cooling loads) regresssion of the input data to build surrogate or proxy models
 
-- Notebook 2: Optimization using a probabilistic method (Bayesian framework)
+- Notebook 2: Single objective optimization using a probabilistic method (Bayesian framework)
 
-- Notebook 3: Optimization using a deterministic method (Pyomo with Ipopt and Gurobi solvers)
+- Notebook 3: Single objective optimization using a deterministic method (Pyomo with Ipopt and Gurobi solvers)
 
-- Notebook 4: Optimization using a hybrid approach (Genetic algorithm with local search using a stochastic algorithm)
+- Notebook 4: Single objective optimization using a hybrid approach (Genetic algorithm with local search using a stochastic algorithm)
 
-- Notebook 5: Multi-objective optimization approach (Pymoo with NSGA-II algorithm)
+- Notebook 5: Multi-objective optimization of heating and cooling loads (Pymoo with NSGA-II algorithm)
 
 **<ins>Notebook 1</ins>**
 
