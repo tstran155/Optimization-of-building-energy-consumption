@@ -125,13 +125,13 @@ d) Optimization using GA with local search
 
 4. Multi-objective optimization using Pymoo
 
-a) Define the evaluate function using the pretrained surrogate model
+a) Define the problem and evaluate function from the surrogate model
 
-b) Define the problem and search space 
+b) Define the search space and NSGA-II algorithm parameteres
 
-c) Define NSGA-II algorithm parameters
+c) Define the convergence termination criteria and callback function to store optimal solution found
 
-d) Run optimization using NSGA-II algorithm 
+d) Perform the optimization for a fixed number of iterations
 
 5. Conclusions
 
