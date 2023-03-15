@@ -42,7 +42,7 @@ Deterministic optimization and probabilistic optimization are two different appr
 
 - Notebook 5: Multi-objective optimization of heating and cooling loads (Pymoo with NSGA-II algorithm)
 
-**<ins>Notebook 1</ins>**
+**<ins>Notebook 1 & 1B</ins>**
 
 1. Prepare Problem
 
@@ -60,15 +60,17 @@ b) Data visualizations
 
 a) Data cleaning
 
-b) Split data into train and test sets
+b) Split data into train and validation sets
 
-c) Data transforms (Notebook 1) or Feature engineering (Sobol sensitivity analysis in Notebook 2) 
+c) Data transforms or Feature engineering (Sobol sensitivity analysis) 
 
 4. Evaluate Algorithms
 
 a) Spot check algorithms (cross-validation technique)
    
    - Notebook 1: machine learning (Linear Regression, Random Forest, and XGBoost) and neural network (Keras Sequential) models
+   
+   - Notebook 1B: machine learning (Linear Regression, Random Forest, KNN, and Support Vector Machine) and neural network (Keras Sequential) models
 
 b) Compare algorithms
 
