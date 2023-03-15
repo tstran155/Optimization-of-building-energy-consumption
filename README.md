@@ -1,4 +1,4 @@
-# Optimization of building design parameters to minimize energy consumption
+# Optimization of building energy consumption
 
 Building energy consumption has steadily increased over the past decades worldwide, and heating, ventilation and air conditioning (HVAC) account for most of the energy use in the buildings. By optimizing the design parameters with the aim of minimizing the heating and cooling loads, it is possible to minimize the total energy consumption of a building. 
 
