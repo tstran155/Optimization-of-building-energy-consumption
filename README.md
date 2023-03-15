@@ -30,7 +30,7 @@ The dataset contains eight attributes (or features, denoted by X1...X8) and two 
 (4) south: 55% on the south side and 15% on each of the other sides, 
 (5) west: 55% on the west side and 15% on each of the other sides,
 
-Deterministic optimization and probabilistic optimization are two different approaches to solving optimization problems in the search space. There are some hybrid approaches that combine deterministic and probabilistic elements such as Genetic algorithms with local search. I will examine all optimization approaches on the building energy optimization dataset in this repository. There are four (04) notebooks in this repository and their structures are similar, except for Sections #4 and 5.
+Deterministic optimization and probabilistic optimization are two different approaches to solving optimization problems in the search space. There are some hybrid approaches that combine deterministic and probabilistic elements such as Genetic algorithms with local search. I will examine all optimization approaches on the building energy optimization dataset in this repository. There are 6 (06) notebooks in this repository and their structures are similar, except for Sections #4 and 5.
 
 - Notebook 1 & 1B: Univariate (total energy consumption) and multivariate (heating and cooling loads) regresssion of the input data to build a surrogate model
 
@@ -39,6 +39,8 @@ Deterministic optimization and probabilistic optimization are two different appr
 - Notebook 3: Optimization using a deterministic method (Pyomo with Ipopt and Gurobi solvers)
 
 - Notebook 4: Optimization using a hybrid approach (Genetic algorithm with local search using a stochastic algorithm)
+
+- Notebook 5: Multi-objective optimization approach (Pymoo with NSGA-II algorithm)
 
 **<ins>Notebook 1</ins>**
 
@@ -107,13 +109,27 @@ c) Optimization process using IPOPT and Gurobi solvers
 
 4. Optimization process using GA with local search
 
-a) Define the objective function using pretrained surrogate model
+a) Define the objective function using the pretrained surrogate model
 
 b) Define the search space and the genetic algorithm parameters
 
 c) Define the local search operator using a stochastic algorithm
 
 d) Optimization using GA with local search 
+
+5. Conclusions
+
+**<ins>Notebook 5</ins>**
+
+4. Multi-objective optimization using Pymoo
+
+a) Define the evaluate function using the pretrained surrogate model
+
+b) Define the problem and search space 
+
+c) Define NSGA-II algorithm parameters
+
+d) Run optimization using NSGA-II algorithm 
 
 5. Conclusions
 
