@@ -129,7 +129,7 @@ a) Define the problem and evaluate function from the surrogate model
 
 b) Define the search space and NSGA-II algorithm parameters
 
-c) Define the convergence termination criteria and callback function to store optimal solution found
+c) Define the convergence termination criteria and callback function to store the optimal solution
 
 d) Perform the optimization for a fixed number of iterations
 
