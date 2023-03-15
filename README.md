@@ -30,7 +30,7 @@ The dataset contains eight attributes (or features, denoted by X1...X8) and two 
 (4) south: 55% on the south side and 15% on each of the other sides, 
 (5) west: 55% on the west side and 15% on each of the other sides,
 
-Deterministic optimization and probabilistic optimization are two different approaches to solving optimization problems in the search space. There are some hybrid approaches that combine deterministic and probabilistic elements such as Genetic algorithms with local search. I will examine all optimization approaches on the building energy optimization dataset in this repository. There are 6 (06) notebooks in this repository and their structures are similar, except for Sections #4 and 5.
+Deterministic optimization and probabilistic optimization are two different approaches to solving optimization problems in the search space. There are some hybrid approaches that combine deterministic and probabilistic elements such as Genetic algorithms with local search. I will examine all optimization approaches on the building energy optimization dataset in this repository. There are six (06) notebooks in this repository and their structures are similar, except for Sections #4 and 5.
 
 - Notebook 1 & 1B: Univariate (total energy consumption) and multivariate (heating and cooling loads) regresssion of the input data to build a surrogate model
 
